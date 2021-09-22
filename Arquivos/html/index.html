@@ -1,0 +1,76 @@
+<!DOCTYPE html5>
+
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>calculadora de equação</title>
+</head>
+
+<body>
+
+<h1>
+ CALCULATOR   
+</h1>
+
+<P1>Este site faz cálculos de equações de primeiro e segundo grau!</P>
+
+<br/>
+<P5>
+<a href="#Equação de primeiro grau">Ir para equação de primeiro grau</a>
+<p id="Equação de primeiro grau"></p>
+<br/>
+
+<a href="#Equação de segundo grau">Ir para equação de segundo grau</a>
+<p id="Equação de segundo grau"></p>
+</p5>
+<br/>
+
+
+<P6>
+<div class="box">
+    <img src="https://s3.static.brasilescola.uol.com.br/be/2020/01/equacao-1-grau-com-incognita.jpg" style ="width: 95%">
+    <span> Equação de primeiro grau </span>
+</div>
+<div class="box">
+    <img src="https://blog.professorferretto.com.br/wp-content/uploads/2020/04/grau-da-equacao-do-2-grau.png" style = "width: 95%" >
+    <span> Equação de segundo grau </span>
+</div>
+
+<style>
+div.box {
+    width: 150px;
+    display: inline-block;
+    }
+</style>
+</P6>
+<br/>
+<br/>
+
+
+<P4 Equação de primeiro grau>
+<br/>
+Insira abaixo na caixa de texto a sua equação conforme o exemplo ax + b = 0
+e no final selecione a opção enviar.  
+<br/>
+</P4>
+
+<form action="salvar_dados.js" method="post">
+    <input type="text" placeholder="Escreva a sua equação aqui..."> <br/>
+    <input type="submit" value="Enviar">
+    </form>
+</P>
+
+<P3 Equação de segundo grau>
+<P4>
+<br/>
+ Insira abaixo na caixa de texto a sua equação conforme o exemplo ax^2 + by + c = 0
+ e no final selecione a opção enviar.  
+ <br/>
+</P4>
+<form action="salvar_dados.js" method="post">
+    <input type="text" placeholder="Escreva a sua equação aqui..."> <br/>
+    <input type="submit" value="Enviar">
+    </form>
+</P>
+</body>
+</html>
